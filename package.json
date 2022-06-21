@@ -1,0 +1,17 @@
+{
+  "name": "platzitravel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tw:build": "tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.4",
+    "tailwindcss": "^2.2.19"
+  }
+}
